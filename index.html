@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pelumi Agboola — Frontend &amp; Python/CV Developer</title>
+  <meta name="description" content="Portfolio of Pelumi Agboola — frontend developer working across web interfaces, Python/computer vision, and embedded systems (Arduino/ESP32)." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo">PA<span class="logo-dot" aria-hidden="true"></span></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Stack</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <span class="nav-status"><span class="status-dot" aria-hidden="true"></span>ONLINE</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-inner">
+
+        <div class="terminal" role="img" aria-label="Simulated serial monitor showing a boot log: connecting to profile, loading, role, location, and status online.">
+          <div class="terminal-bar">
+            <span class="term-dot term-dot--red"></span>
+            <span class="term-dot term-dot--yellow"></span>
+            <span class="term-dot term-dot--green"></span>
+            <span class="terminal-title">serial monitor — 115200 baud</span>
+          </div>
+          <div class="terminal-body" id="terminalBody" aria-hidden="true">
+            <!-- Lines injected by script.js. Noscript fallback below. -->
+          </div>
+          <noscript>
+            <div class="terminal-body">
+              <p>&gt; connecting to portfolio... OK</p>
+              <p>&gt; role: frontend + python/cv + embedded</p>
+              <p>&gt; location: Lagos, NG (UTC+01:00)</p>
+              <p class="term-status">STATUS: ONLINE ●</p>
+            </div>
+          </noscript>
+        </div>
+
+        <h1 class="hero-name">Pelumi Agboola</h1>
+        <p class="hero-role">Frontend Developer &middot; Python / Computer Vision &middot; Arduino &amp; ESP32</p>
+        <p class="hero-tagline">I build things that live on screens, and things that live on circuit boards — and I'm teaching them to talk to each other.</p>
+
+        <div class="hero-meta">
+          <span class="chip">Lagos, Nigeria</span>
+          <span class="chip">WAT &middot; UTC+01:00</span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="https://github.com/CrownJosh12" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/pelumi-agboola-767954403" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-inner">
+        <p class="eyebrow">[ABOUT]</p>
+        <h2>About</h2>
+        <div class="about-grid">
+          <div class="photo-frame">
+            <img src="profile.jpg" alt="Portrait of Pelumi Agboola" loading="lazy" />
+            <div class="photo-caption"><span class="status-dot" aria-hidden="true"></span>pelumi_agboola</div>
+          </div>
+          <p class="about-text">I am a Computer Science graduate and technology professional with experience in account management, digital revenue collection systems, and software development. I specialize in leveraging technology to solve business challenges by creating efficient, user-focused solutions while continuously expanding my expertise in software engineering, automation, and robotics. I am passionate about delivering value through innovation, problem-solving, and a commitment to excellence.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="section-inner">
+        <p class="eyebrow">[STACK]</p>
+        <h2>Core technologies</h2>
+        <ul class="chip-grid">
+          <li class="tech-chip">HTML</li>
+          <li class="tech-chip">CSS</li>
+          <li class="tech-chip">JavaScript</li>
+          <li class="tech-chip">Python</li>
+          <li class="tech-chip">Arduino / ESP32</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-inner">
+        <p class="eyebrow">[PROJECTS]</p>
+        <h2>Projects</h2>
+        <p class="section-note">Concept builds, actively in progress — track the code as it lands on GitHub.</p>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-head">
+              <h3>ThermoWatch</h3>
+              <span class="badge">In development</span>
+            </div>
+            <p>An ESP32-based temperature monitoring system using a DS18B20 sensor to log readings in real time and flag values outside a safe range — a practical building block for watching over equipment, storage, or a room from a distance.</p>
+            <ul class="tag-list">
+              <li>ESP32</li>
+              <li>DS18B20</li>
+              <li>C++ / Arduino</li>
+              <li>Web dashboard</li>
+            </ul>
+            <a class="project-link" href="https://github.com/CrownJosh12" target="_blank" rel="noopener">Follow progress on GitHub ↗</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>VisionGuard</h3>
+              <span class="badge">In development</span>
+            </div>
+            <p>A Python and OpenCV monitoring script that watches a live camera feed for movement inside a defined zone, flags anything unusual, and saves a snapshot the instant it happens — a first step toward camera-based property monitoring.</p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>OpenCV</li>
+              <li>NumPy</li>
+            </ul>
+            <a class="project-link" href="https://github.com/CrownJosh12" target="_blank" rel="noopener">Follow progress on GitHub ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contact">
+      <div class="section-inner">
+        <p class="eyebrow">[CONTACT]</p>
+        <h2>Get in touch</h2>
+        <p class="section-note">Based in Lagos, Nigeria (WAT, UTC+01:00) — open to frontend and Python/CV roles.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:crowngodwin872@gmail.com">Email ↗</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/pelumi-agboola-767954403" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn btn-ghost" href="https://github.com/CrownJosh12" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+        <p class="contact-email">crowngodwin872@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Pelumi Agboola. Built with HTML, CSS &amp; JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
